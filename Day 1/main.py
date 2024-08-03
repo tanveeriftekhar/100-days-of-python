@@ -28,11 +28,11 @@ print ("What is your name? ") #Only prints. Cannot take input
 # So we have to convert it to string or change the format. 
 
 # Here is how to convert it to string 
-print("The length of the name is " + str(len(input("What is your name?"))) + " characters")
+# print("The length of the name is " + str(len(input("What is your name?"))) + " characters")
 
-# Here is how to change the format 
-name = input("What is your name?")
-print(f"The length of the name is {len(name)} characters")
+# # Here is how to change the format 
+# name = input("What is your name?")
+# print(f"The length of the name is {len(name)} characters")
 
 
 # Why the f is outside braces 
@@ -53,6 +53,12 @@ print(f"The length of the name is {len(name)} characters")
 # So the `f` is placed before the opening quote to indicate that the string is an f-string and allows you to use the curly braces for expression interpolation.
 
     #Variables in python 
-a = "Tanveer"
-print(a) 
-print(len (a))
+# a = "Tanveer"
+# print(a) 
+# print(len (a))
+
+# Write a program that switches the values in the variables A and B
+variable_a = input ("a: ")
+variable_b = input ("b: ")
+print("a = ", variable_b)
+print("b = ", variable_a)

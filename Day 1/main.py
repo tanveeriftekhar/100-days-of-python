@@ -22,7 +22,7 @@ print ("What is your name? ") #Only prints. Cannot take input
     #length function 
 #write a program that prints the number of characters in a users name. 
 #we use len() to count the number of a string 
-print ("The length of the name is " + ( len ( input ("What is your name?"))) + " characters")
+# print ("The length of the name is " + ( len ( input ("What is your name?"))) + " characters")
 
 # There's an error. because we cannot concatenate a string with an integer in python. karon python ekta bokachoda lang. 
 # So we have to convert it to string or change the format. 
@@ -52,3 +52,7 @@ print(f"The length of the name is {len(name)} characters")
 
 # So the `f` is placed before the opening quote to indicate that the string is an f-string and allows you to use the curly braces for expression interpolation.
 
+    #Variables in python 
+a = "Tanveer"
+print(a) 
+print(len (a))

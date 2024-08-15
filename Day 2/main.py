@@ -22,3 +22,6 @@ second_number = int(second_digit)
 equation = str(first_number + second_number)
 print(equation)
 print (first_digit + "+" + second_digit + "=" + equation)
+
+# PEMDASLR
+# Mathematical operations are done from left to right in python no matter they are following PEMDAS or not 
